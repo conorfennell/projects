@@ -6,8 +6,7 @@ import java.util.TimerTask;
 public class AlarmClock {
     Timer timer = new Timer();
 
-    AlarmClock(TimerTask timerTask, Long delay) {
-
+    private AlarmClock(TimerTask timerTask, Long delay) {
         timer.schedule(timerTask, delay);
     }
 
