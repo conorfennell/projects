@@ -17,16 +17,24 @@ public class Rss {
     public static final String RSS_LINK = "http://www.feedforall.com/sample.xml" ;
 
     public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException {
-        HttpClient httpClient = HttpClients.createDefault();
-        HttpGet httpGet = new HttpGet(RSS_LINK);
 
-        HttpResponse x  = httpClient.execute(httpGet);
-
-        EntityUtils.toString(x.getEntity());
 
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser saxParser = factory.newSAXParser();
+        RssHandler rssHandler = new RssHandler();
+        saxParser.parse(RSS_LINK,rssHandler);
 
+        for(String link : rssHandler.getLinks()){
+                    System.out.println(retrieveLink(link));
+        }
     }
+     private static String retrieveLink(String link) throws IOException {
+         HttpClient httpClient = HttpClients.createDefault();
+         HttpGet httpGet = new HttpGet(link);
+
+         HttpResponse response  = httpClient.execute(httpGet);
+
+         return EntityUtils.toString(response.getEntity());
+     }
 
 }
