@@ -16,7 +16,7 @@ Numbers
 
 **Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
-**Change Return Program** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
+**[Change Return Program](https://github.com/conorfennell/Projects/blob/master/Numbers/src/main/java/com/cafedead/numbers/ChangeCalculator.java)** - The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.
 
 **[Binary to Decimal and Back Converter](https://github.com/conorfennell/Projects/blob/master/Numbers/src/main/java/com/cafedead/numbers/BinaryConverter.java)** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
@@ -71,19 +71,19 @@ Data Structures
 Text
 ---------
 
-**Reverse a String** - Enter a string and the program will reverse it and print it out.
+**[Reverse a String](https://github.com/conorfennell/projects/blob/master/Text/src/main/java/com/cafedead/text/ReverseString.java)** - Enter a string and the program will reverse it and print it out.
 
 **Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
-**Count Vowels** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
+**[Count Vowels](https://github.com/conorfennell/projects/blob/master/Text/src/main/java/com/cafedead/text/CountVowels.java)** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 
-**Check if Palindrome** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
+**[Check if Palindrome](https://github.com/conorfennell/projects/blob/master/Text/src/main/java/com/cafedead/text/PalindromeChecker.java)** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 
 **Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
-**RSS Feed Creator** - Given a link to RSS/Atom Feed, get all posts and display them.
+**[RSS Feed Creator](https://github.com/conorfennell/projects/tree/master/Text/src/main/java/com/cafedead/text/rss)** - Given a link to RSS/Atom Feed, get all posts and display them.
 
 **Post it Notes Program** - A program where you can add text reminders and post them. *Optional: You can have the program also add popup reminders.*
 
